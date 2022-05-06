@@ -1,0 +1,1 @@
+My implementation of Conway's Game of Life in Golang with "glider" at the middle as the initial seed pattern, no additional packages are needed
