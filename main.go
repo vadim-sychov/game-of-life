@@ -83,7 +83,6 @@ func (field GameField) CreateGliderSeedPattern() {
 
 // CountAliveNeighborCells checks the adjacent cells and counts which are alive
 func (field GameField) CountAliveNeighborCells(x, y int) int {
-	// TODO slightly refactor algorithm
 	var aliveNeighborCells int
 
 	for i := y - 1; i <= y+1; i++ {
